@@ -16,7 +16,7 @@
                         class="h-8 w-auto sm:h-10"
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                         alt="" />
-				</a> -->
+                </a> -->
                 <svg
                     class="w-6 mr-2 text-secondary"
                     fill="none"
@@ -65,17 +65,32 @@
               Heroicon name: chevron-down
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             -->
-                        <svg
-                            class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                            aria-hidden="true">
-                            <path
-                                fill-rule="evenodd"
-                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
+                        {#if servicesOpen === false}
+                            <svg
+                                class="ml-2 h-4 w-4 text-gray-400 group-hover:text-gray-500"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"><path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        {:else}
+                            <svg
+                                class="ml-2 h-4 w-4 text-gray-400 group-hover:text-gray-500"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 15l7-7 7 7" />
+                            </svg>
+                        {/if}
                     </button>
 
                     <!--                     
@@ -185,6 +200,35 @@
                                                 class="mt-1 text-sm text-gray-500">
                                                 Apps designed to run on iOS and
                                                 Android mobile phones.
+                                            </p>
+                                        </div>
+                                    </a>
+
+                                    <a
+                                        href="technology-consulting"
+                                        class:bg-gray-100={segment === 'technology-consulting'}
+                                        on:click={() => (servicesOpen = false)}
+                                        class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                                        <svg
+                                            class="w-6 h-6 text-primary"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                            xmlns="http://www.w3.org/2000/svg"><path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                stroke-width="2"
+                                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        </svg>
+                                        <div class="ml-4">
+                                            <p
+                                                class="text-base font-medium text-gray-900">
+                                                Technology Consolting
+                                            </p>
+                                            <p
+                                                class="mt-1 text-sm text-gray-500">
+                                                Advising on the best technology
+                                                solutions for your business.
                                             </p>
                                         </div>
                                     </a>
