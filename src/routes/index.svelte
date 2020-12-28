@@ -104,6 +104,7 @@
 </section>
 
 <section name="services">
+    <!-- websites -->
     <div class="py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center md:text-left">
@@ -250,6 +251,7 @@
         </div>
     </div>
 
+    <!-- web apps -->
     <div class="py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center md:text-right">
@@ -354,7 +356,7 @@
                         <div class="ml-4">
                             <dt
                                 class="text-lg leading-6 font-medium text-gray-900">
-                                Real-TIme
+                                Real-Time
                             </dt>
                             <dd class="mt-2 text-base text-gray-500">
                                 Information is stored and updated all in
@@ -390,6 +392,439 @@
                                 Learn more about how our web app development can
                                 help grow your business with the features that
                                 you require.
+                            </dd>
+                        </div>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- mobile apps -->
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center md:text-left">
+                <h2
+                    class="text-base text-primary font-semibold tracking-wide uppercase">
+                    Mobile Apps
+                </h2>
+                <p
+                    class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Your Business in the App Store
+                </p>
+                <p class="mt-4 text-xl text-gray-500 md:max-w-lg">
+                    Mobile application design and development specific to the
+                    needs of your mobile business strategy.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <dl
+                    class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                Secure
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Every app is designed to protect user data and
+                                privacy from prying eyes.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                Push Notifications
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Reach your users faster and easier with push
+                                notifications directly to their phones or
+                                tablets.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                Simple
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Apps designed and developed to be simple and
+                                easy for the end users to use in their everyday
+                                lives.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                And more...
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Learn more about how our mobile app development
+                                can help grow your business with the features
+                                that you require.
+                            </dd>
+                        </div>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- technology consulting apps -->
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center md:text-right">
+                <h2
+                    class="text-base text-primary font-semibold tracking-wide uppercase">
+                    Technology Consulting
+                </h2>
+                <p
+                    class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    The Tech of Your Business
+                </p>
+                <p
+                    class="mt-4 text-xl text-gray-500 md:max-w-lg md:inline-block ">
+                    Analyzing the technical requirements of your business and
+                    providing the optimal solutions to fit your needs.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <dl
+                    class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                In-Depth Analysis
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                A deep dive into the inter-workings of your
+                                business and the processes that can be improved
+                                with various technologies.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                The Latest Solutions
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                We keep up-to-date with the best solutions for
+                                your business so you don't have to!
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                Reduce Costs
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Having robust technical solutions in place help
+                                to reduce the overall expenses of your business.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                And more...
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Learn more about how we can help you with the
+                                technology needs for your business.
+                            </dd>
+                        </div>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+    <!-- automation -->
+    <div class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center md:text-left">
+                <h2
+                    class="text-base text-primary font-semibold tracking-wide uppercase">
+                    Automation
+                </h2>
+                <p
+                    class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                    Automate Your Business Processes
+                </p>
+                <p class="mt-4 text-xl text-gray-500 md:max-w-lg">
+                    Automation workflows that remove tedious tasks, saving you
+                    and your employees time and money.
+                </p>
+            </div>
+
+            <div class="mt-10">
+                <dl
+                    class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                Integration
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                We integrate a wide variety of services to link
+                                your processes together.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                Automate Workflows
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                A workflow can start in any app and finish
+                                automatically in another.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 008 4.07M3 15.364c.64-1.319 1-2.8 1-4.364 0-1.457.39-2.823 1.07-4" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                For Your Needs
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Each automation is designed specifically to
+                                solve a problem for you.
+                            </dd>
+                        </div>
+                    </div>
+
+                    <div class="flex">
+                        <div class="flex-shrink-0">
+                            <div
+                                class="flex items-center justify-center h-12 w-12 rounded-md">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <dt
+                                class="text-lg leading-6 font-medium text-gray-900">
+                                And more...
+                            </dt>
+                            <dd class="mt-2 text-base text-gray-500">
+                                Learn more about how automation can improve the
+                                processes of your business.
                             </dd>
                         </div>
                     </div>
