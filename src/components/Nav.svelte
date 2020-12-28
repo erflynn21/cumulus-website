@@ -27,13 +27,16 @@
                         stroke-linejoin="round"
                         stroke-width="2"
                         d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>
-                <a href="/" class="text-lg font-semibold">Cumulus Creative</a>
+                <a
+                    href="/"
+                    class="text-lg font-semibold"
+                    on:click={() => (servicesOpen = false)}>Cumulus Creative</a>
             </div>
 
             <div class="-mr-2 -my-2 md:hidden">
                 <button
                     type="button"
-                    class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 focus:outline-none">
+                    class="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 focus:outline-none">
                     <span class="sr-only">Open menu</span>
                     <!-- Heroicon name: menu -->
                     <svg
@@ -55,11 +58,10 @@
                     <button
                         on:click={() => (servicesOpen = !servicesOpen)}
                         type="button"
-                        class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none">
+                        class="group rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none">
                         <span>Services</span>
                         <!--
               Heroicon name: chevron-down
-
               Item active: "text-gray-600", Item inactive: "text-gray-400"
             -->
                         <svg
@@ -77,7 +79,6 @@
 
                     <!--                     
             'Services' flyout menu, show/hide based on flyout menu state.
-
             Entering: "transition ease-out duration-200"
               From: "opacity-0 translate-y-1"
               To: "opacity-100 translate-y-0"
@@ -238,17 +239,11 @@
                 </a>
 
                 <div class="relative hidden">
-                    <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                     <button
                         type="button"
                         class:text-gray-900={segment === 'work'}
                         class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                         <span>Work</span>
-                        <!--
-              Heroicon name: chevron-down
-
-              Item active: "text-gray-600", Item inactive: "text-gray-400"
-            -->
                         <svg
                             class="ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500"
                             xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +263,6 @@
 
     <!--
     Mobile menu, show/hide based on mobile menu state.
-
     Entering: "duration-200 ease-out"
       From: "opacity-0 scale-95"
       To: "opacity-100 scale-100"
@@ -278,7 +272,7 @@
   -->
     {#if mobileMenu === true}
         <div
-            class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+            class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10">
             <div
                 class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                 <div class="pt-5 pb-6 px-5">
@@ -299,7 +293,7 @@
                         <div class="-mr-2">
                             <button
                                 type="button"
-                                class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                                class="bg-white rounded-md inline-flex items-center justify-center text-gray-400 hover:text-gray-500 focus:outline-none ">
                                 <span class="sr-only">Close menu</span>
                                 <svg
                                     on:click={() => (mobileMenu = false)}
@@ -416,6 +410,3 @@
         </div>
     {/if}
 </div>
-
-<style>
-</style>
