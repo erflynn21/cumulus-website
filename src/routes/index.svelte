@@ -6,7 +6,7 @@
 </svelte:head>
 
 <section name="hero">
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden mb-6">
         <div
             class="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full"
             aria-hidden="true">
@@ -104,6 +104,14 @@
 </section>
 
 <section name="services">
+    <div class="bg-primary">
+        <div class="max-w-7xl mx-auto p-6 sm:p-8">
+            <h2 class="text-3xl font-extrabold text-white text-center">
+                Services
+            </h2>
+        </div>
+    </div>
+
     <!-- websites -->
     <div class="py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -544,7 +552,7 @@
         </div>
     </div>
 
-    <!-- technology consulting apps -->
+    <!-- technology consulting -->
     <div class="py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center md:text-right">
@@ -836,79 +844,107 @@
 
 <section name="technologies">
     <div class="bg-primary">
-        <div class="max-w-7xl mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto py-12 px-4">
             <h2 class="text-3xl font-extrabold text-white text-center">
                 Technologies We Leverage
             </h2>
-            <!-- <div class="flow-root mt-8 lg:mt-10"> -->
-            <!-- first line -->
-
             <div
-                class="grid grid-cols-2 gap-x-10 gap-y-12 mt-14 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 justify-items-center align-items-center">
+                class="grid grid-cols-1 gap-x-10 gap-y-12 mt-14 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center align-items-center">
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609126191/svelte_js_e8qqct.webp"
                     alt="Svelte" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609126626/netlify-logo_tojl5u.webp"
                     alt="Netlify" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609126689/cloudflare_magv2z.webp"
                     alt="Cloudflare" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609127282/logo-standard_marp0e.webp"
                     alt="Firebase" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609126820/70ddd55fe9c2df5cc8c20f0047db6558_fw8myj.webp"
                     alt="Userbase" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609132904/58481021cef1014c0b5e494b_ucsljp.webp"
                     alt="MongoDB" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609133127/437-4371132_meteor-logo-png-transparent-meteor-js-logo_vkkwrh.webp"
                     alt="Meteor" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609136062/google-drive-logo_j5udd7.webp"
                     alt="Google Drive" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609135539/logo-color-transparent_qv2oyl.svg"
                     alt="Click Up" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609126913/qk28pd2r8vn7ppf3hnsx_cowpvb.webp"
                     alt="Sapper" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609136299/83809024-9da80580-a66a-11ea-8a1d-090fe6f8b01e_zrrpzr.webp"
                     alt="Capacitor" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609136356/logo-text-red_p2bafv.webp"
                     alt="Framework7" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609136432/zapier-logo_f92g1z.webp"
                     alt="Zapier" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609136999/integromat-white_pe9las.svg"
                     alt="Integromat" />
                 <img
-                    class="h-12 object-contain"
+                    class="h-12 object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609137351/strapi-logo-light_qizocc.svg"
                     alt="Strapi" />
             </div>
             <h2 class="text-2xl font-extrabold text-white text-center mt-12">
-                And Many More...
+                Along with many more...
             </h2>
         </div>
     </div>
 </section>
+
+<section name="cta">
+    <div class="bg-white">
+        <div
+            class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+            <h2
+                class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block">Want to talk specifics?</span>
+                <span class="block text-primary">Get in touch today.</span>
+            </h2>
+            <div class="mt-8 flex justify-center">
+                <div class="inline-flex rounded-md shadow">
+                    <a
+                        href="contact"
+                        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:secondary">
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    img {
+        filter: brightness(0) invert(1);
+    }
+    img:hover {
+        filter: brightness(1) invert(0);
+    }
+</style>
