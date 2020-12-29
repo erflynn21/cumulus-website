@@ -107,7 +107,7 @@
                             in:fade={{ duration: 200 }}
                             out:fade={{ duration: 150 }}
                             class="absolute z-10 mt-3 transform px-2
-                            w-screen max-w-md sm:px-0 -ml-0 left-1/2
+                            w-screen max-w-md sm:px-0 -ml-0 -left-28
                             -translate-x-1/2">
                             <div
                                 class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
@@ -268,13 +268,13 @@
                     {/if}
                 </div>
 
-                <a
+                <!-- <a
                     href="about"
                     class:text-gray-900={segment === 'about'}
                     on:click={(servicesOpen = false)}
                     class="text-base font-medium text-gray-500 hover:text-gray-900">
                     About
-                </a>
+                </a> -->
                 <a
                     href="contact"
                     class:text-gray-900={segment === 'contact'}
@@ -428,6 +428,28 @@
                             </a>
 
                             <a
+                                href="technology-consulting"
+                                class:bg-gray-100={segment === 'technology-consulting'}
+                                on:click={() => (mobileMenu = false)}
+                                class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span
+                                    class="ml-3 text-base font-medium text-gray-900">
+                                    Technology Consolting
+                                </span>
+                            </a>
+
+                            <a
                                 href="automation"
                                 class:bg-gray-100={segment === 'automation'}
                                 on:click={() => (mobileMenu = false)}
@@ -446,6 +468,34 @@
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
                                     Automation
+                                </span>
+                            </a>
+                            <!-- <a
+                                href="about"
+                                class:bg-gray-100={segment === 'about'}
+                                on:click={() => (mobileMenu = false)}
+                                class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                About
+                            </a> -->
+                            <a
+                                href="contact"
+                                class:bg-gray-100={segment === 'contact'}
+                                on:click={() => (mobileMenu = false)}
+                                class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+                                <svg
+                                    class="w-6 h-6 text-primary"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"><path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span
+                                    class="ml-3 text-base font-medium text-gray-900">
+                                    Contact
                                 </span>
                             </a>
                         </nav>
