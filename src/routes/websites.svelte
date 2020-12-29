@@ -567,6 +567,29 @@
     </div>
 </section>
 
+<section name="cta">
+    <div class="bg-white">
+        <div
+            class="max-w-full mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8 bg-primary">
+            <h2
+                class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                <span class="block text-white">Ready to get started on your
+                    website?</span>
+                <span class="block text-white">Get in touch today.</span>
+            </h2>
+            <div class="mt-8 flex justify-center">
+                <div class="inline-flex rounded-md shadow">
+                    <a
+                        href="contact"
+                        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white">
+                        Request a Quote
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <style>
     img {
         filter: brightness(0) invert(1);
