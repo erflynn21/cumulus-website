@@ -369,12 +369,12 @@
                         <div class="ml-3">
                             <dt
                                 class="text-lg leading-6 font-medium text-gray-900">
-                                Offline Functionality
+                                Push Notifications
                             </dt>
                             <dd class="mt-2 text-base text-gray-500">
-                                Allow users to interact with their data even
-                                when not connected to the internet. Changes are
-                                automatically synced later.
+                                Send messages and notifications directly to your
+                                users while their in the app or to their lock
+                                screen.
                             </dd>
                         </div>
                     </div>
