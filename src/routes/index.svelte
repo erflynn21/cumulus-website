@@ -667,7 +667,7 @@
                         </div>
                     </div>
 
-                    <a href="tecnology-consulting">
+                    <a href="technology-consulting">
                         <div
                             class="flex bg-gray-100 rounded-lg hover:bg-gray-200 py-3 mt-8 md:mt-0">
                             <div class="flex-shrink-0">
