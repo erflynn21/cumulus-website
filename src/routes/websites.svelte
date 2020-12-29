@@ -14,8 +14,8 @@
                         class="mt-3 max-w-md mx-auto text-lg text-gray-500 sm:text-xl md:mt-5 md:max-w-3xl">
                         We build websites that are modern, performant,
                         responsive, and, most importantly, designed specifically
-                        for you. Check out how our website development can bring
-                        to the table below.
+                        for you. Check out what our website development can
+                        bring to the table below.
                     </p>
                     <div
                         class="mt-10 sm:flex sm:justify-center lg:justify-start">
@@ -34,7 +34,7 @@
                         class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-xl">
                         <img
                             class="w-full rounded-lg hero-image"
-                            src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609210757/nathan-da-silva-k-rKfqSm4L4-unsplash_z0pzrc.jpg"
+                            src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609210757/nathan-da-silva-k-rKfqSm4L4-unsplash_z0pzrc.webp"
                             alt="" />
                     </div>
                 </div>
@@ -416,12 +416,11 @@
                         <div class="ml-3">
                             <dt
                                 class="text-lg leading-6 font-medium text-gray-900">
-                                Ultra-Fast Load Times
+                                Advanced Asset Management
                             </dt>
                             <dd class="mt-2 text-base text-gray-500">
-                                This impacts user experience and SEO. We make
-                                load times blazing fast by obsessing over the
-                                small things.
+                                We will manage and optomize photos and videos
+                                for quick loading and streaming on your website.
                             </dd>
                         </div>
                     </div>
@@ -498,11 +497,11 @@
                         <div class="ml-3">
                             <dt
                                 class="text-lg leading-6 font-medium text-gray-900">
-                                Domain Management
+                                Email Newsletters
                             </dt>
                             <dd class="mt-2 text-base text-gray-500">
-                                We'll set up and manage your domain name as well
-                                the renewal process every year.
+                                Easily allow customers to sign up to your
+                                newsletter right from your website.
                             </dd>
                         </div>
                     </div>
@@ -525,11 +524,12 @@
                         <div class="ml-3">
                             <dt
                                 class="text-lg leading-6 font-medium text-gray-900">
-                                Email Newsletters
+                                Advanced SEO Setup and Management
                             </dt>
                             <dd class="mt-2 text-base text-gray-500">
-                                Easily allow customers to sign up to your
-                                newsletter right from your website.
+                                Search engine optimization helps get your
+                                website and business discovered by others. We'll
+                                help get that up and running.
                             </dd>
                         </div>
                     </div>
@@ -581,7 +581,7 @@
                 <div class="inline-flex rounded-md shadow">
                     <a
                         href="contact"
-                        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white">
+                        class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-primary bg-white hover:bg-gray-100">
                         Request a Quote
                     </a>
                 </div>
