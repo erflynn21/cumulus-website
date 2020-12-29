@@ -862,62 +862,92 @@
             <div
                 class="grid grid-cols-1 gap-x-10 gap-y-12 mt-14 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 justify-items-center align-items-center">
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126191/svelte_js_e8qqct.webp"
                     alt="Svelte" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126626/netlify-logo_tojl5u.webp"
                     alt="Netlify" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126689/cloudflare_magv2z.webp"
                     alt="Cloudflare" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609127282/logo-standard_marp0e.webp"
                     alt="Firebase" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126820/70ddd55fe9c2df5cc8c20f0047db6558_fw8myj.webp"
                     alt="Userbase" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609132904/58481021cef1014c0b5e494b_ucsljp.webp"
                     alt="MongoDB" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609133127/437-4371132_meteor-logo-png-transparent-meteor-js-logo_vkkwrh.webp"
                     alt="Meteor" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609136062/google-drive-logo_j5udd7.webp"
                     alt="Google Drive" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609135539/logo-color-transparent_qv2oyl.svg"
                     alt="Click Up" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126913/qk28pd2r8vn7ppf3hnsx_cowpvb.webp"
                     alt="Sapper" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609136299/83809024-9da80580-a66a-11ea-8a1d-090fe6f8b01e_zrrpzr.webp"
                     alt="Capacitor" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609136356/logo-text-red_p2bafv.webp"
                     alt="Framework7" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609136432/zapier-logo_f92g1z.webp"
                     alt="Zapier" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609136999/integromat-white_pe9las.svg"
                     alt="Integromat" />
                 <img
+                    height="75px"
+                    width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
                     src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609137351/strapi-logo-light_qizocc.svg"
                     alt="Strapi" />
