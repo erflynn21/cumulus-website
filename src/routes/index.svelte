@@ -423,7 +423,7 @@
                     Your Business in the App Store
                 </p>
                 <p class="mt-4 text-xl text-gray-500 md:max-w-lg">
-                    Mobile application design and development specific to the
+                    Mobile application designed and development specific to the
                     needs of your mobile business strategy.
                 </p>
             </div>

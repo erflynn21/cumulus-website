@@ -168,9 +168,9 @@
                                             </p>
                                             <p
                                                 class="mt-1 text-sm text-gray-500">
-                                                Web applications allow for
-                                                interactivacity and user
-                                                accounts.
+                                                Web applications for internal
+                                                tools or customer-facing SaaS
+                                                products.
                                             </p>
                                         </div>
                                     </a>
