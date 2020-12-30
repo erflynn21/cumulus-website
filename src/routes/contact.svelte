@@ -328,6 +328,9 @@
                             Submit
                         </button>
                     </div>
+                    <div class="text-center sm:col-span-2">
+                        <p>{message}</p>
+                    </div>
                 </form>
             </div>
         </div>
