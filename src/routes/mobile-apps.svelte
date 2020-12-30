@@ -37,7 +37,7 @@
                         class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-xl">
                         <img
                             class="w-full rounded-lg hero-image"
-                            src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609220863/maxim-ilyahov-0aRycsfH57A-unsplash_ntfajn.webp"
+                            src="https://res.cloudinary.com/cumulus-creative-services/image/upload/w_600/v1609220863/maxim-ilyahov-0aRycsfH57A-unsplash_ntfajn.webp"
                             alt="" />
                     </div>
                 </div>

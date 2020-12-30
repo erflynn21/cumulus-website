@@ -38,7 +38,7 @@
                         class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-xl">
                         <img
                             class="w-full rounded-lg hero-image"
-                            src="https://res.cloudinary.com/cumulus-creative-services/image/upload/v1609225823/anthony-choren-4C4jcOLoSpc-unsplash_vul32u.webp"
+                            src="https://res.cloudinary.com/cumulus-creative-services/image/upload/w_600/v1609225823/anthony-choren-4C4jcOLoSpc-unsplash_vul32u.webp"
                             alt="" />
                     </div>
                 </div>
