@@ -147,16 +147,18 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Custom Made
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Your business is unique and your website should
-                                be too. Our websites are each custom made for
-                                you and your needs. You won't find any templates
-                                here.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Custom Made
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Your business is unique and your website
+                                    should be too. Our websites are each custom
+                                    made for you and your needs. You won't find
+                                    any templates here.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -180,15 +182,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Performant
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                We use the latest web development technologies
-                                to bring you the speediest and snappiest web
-                                experience possible.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Performant
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    We use the latest web development
+                                    technologies to bring you the speediest and
+                                    snappiest web experience possible.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -210,14 +214,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Repsonsive
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Your website will look great for everyone who
-                                sees it, no matter what devices they're on.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Repsonsive
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Your website will look great for everyone
+                                    who sees it, no matter what devices they're
+                                    on.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -241,15 +248,17 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt
-                                    class="text-lg leading-6 font-medium text-gray-900">
-                                    And more...
-                                </dt>
-                                <dd class="mt-2 text-base text-gray-500">
-                                    Learn more about how our website development
-                                    can help grow your business with the
-                                    features that you require.
-                                </dd>
+                                <dl>
+                                    <dt
+                                        class="text-lg leading-6 font-medium text-gray-900">
+                                        And more...
+                                    </dt>
+                                    <dd class="mt-2 text-base text-gray-500">
+                                        Learn more about how our website
+                                        development can help grow your business
+                                        with the features that you require.
+                                    </dd>
+                                </dl>
                             </div>
                         </div>
                     </a>
@@ -300,16 +309,18 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Blazing Fast
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Our web apps perform just like apps on your
-                                phone or tablet, so they're really fast! Content
-                                loads instantly, which makes your customers or
-                                employees happy.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Blazing Fast
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Our web apps perform just like apps on your
+                                    phone or tablet, so they're really fast!
+                                    Content loads instantly, which makes your
+                                    customers or employees happy.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -361,15 +372,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Real-Time
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Information is stored and updated all in
-                                real-time for the best possible user experience.
-                                No reloads necessary.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Real-Time
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Information is stored and updated all in
+                                    real-time for the best possible user
+                                    experience. No reloads necessary.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -393,15 +406,17 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt
-                                    class="text-lg leading-6 font-medium text-gray-900">
-                                    And more...
-                                </dt>
-                                <dd class="mt-2 text-base text-gray-500">
-                                    Learn more about how our web app development
-                                    can help grow your business with the
-                                    features that you require.
-                                </dd>
+                                <dl>
+                                    <dt
+                                        class="text-lg leading-6 font-medium text-gray-900">
+                                        And more...
+                                    </dt>
+                                    <dd class="mt-2 text-base text-gray-500">
+                                        Learn more about how our web app
+                                        development can help grow your business
+                                        with the features that you require.
+                                    </dd>
+                                </dl>
                             </div>
                         </div>
                     </a>
@@ -449,14 +464,16 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Secure
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Every app is designed to protect user data and
-                                privacy from prying eyes.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Secure
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Every app is designed to protect user data
+                                    and privacy from prying eyes.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -478,15 +495,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Push Notifications
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Reach your users faster and easier with push
-                                notifications directly to their phones or
-                                tablets.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Push Notifications
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Reach your users faster and easier with push
+                                    notifications directly to their phones or
+                                    tablets.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -508,15 +527,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Simple
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Apps designed and developed to be simple and
-                                easy for the end users to use in their everyday
-                                lives.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Simple
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Apps designed and developed to be simple and
+                                    easy for the end users to use in their
+                                    everyday lives.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -540,15 +561,17 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt
-                                    class="text-lg leading-6 font-medium text-gray-900">
-                                    And more...
-                                </dt>
-                                <dd class="mt-2 text-base text-gray-500">
-                                    Learn more about how our mobile app
-                                    development can help grow your business with
-                                    the features that you require.
-                                </dd>
+                                <dl>
+                                    <dt
+                                        class="text-lg leading-6 font-medium text-gray-900">
+                                        And more...
+                                    </dt>
+                                    <dd class="mt-2 text-base text-gray-500">
+                                        Learn more about how our mobile app
+                                        development can help grow your business
+                                        with the features that you require.
+                                    </dd>
+                                </dl>
                             </div>
                         </div>
                     </a>
@@ -597,15 +620,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                In-Depth Analysis
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                A deep dive into the inter-workings of your
-                                business and the processes that can be improved
-                                with various technologies.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    In-Depth Analysis
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    A deep dive into the inter-workings of your
+                                    business and the processes that can be
+                                    improved with various technologies.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -627,14 +652,16 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                The Latest Solutions
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                We keep up-to-date with the best solutions for
-                                your business so you don't have to!
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    The Latest Solutions
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    We keep up-to-date with the best solutions
+                                    for your business so you don't have to!
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -656,14 +683,17 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Reduce Costs
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Having robust technical solutions in place help
-                                to reduce the overall expenses of your business.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Reduce Costs
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Having robust technical solutions in place
+                                    help to reduce the overall expenses of your
+                                    business.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -687,14 +717,17 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt
-                                    class="text-lg leading-6 font-medium text-gray-900">
-                                    And more...
-                                </dt>
-                                <dd class="mt-2 text-base text-gray-500">
-                                    Learn more about how we can help you with
-                                    the technology needs for your business.
-                                </dd>
+                                <dl>
+                                    <dt
+                                        class="text-lg leading-6 font-medium text-gray-900">
+                                        And more...
+                                    </dt>
+                                    <dd class="mt-2 text-base text-gray-500">
+                                        Learn more about how we can help you
+                                        with the technology needs for your
+                                        business.
+                                    </dd>
+                                </dl>
                             </div>
                         </div>
                     </a>
@@ -742,14 +775,16 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Integration
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                We integrate a wide variety of services to link
-                                your processes together.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Integration
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    We integrate a wide variety of services to
+                                    link your processes together.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -776,14 +811,16 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                Automate Workflows
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                A workflow can start in any app and finish
-                                automatically in another.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    Automate Workflows
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    A workflow can start in any app and finish
+                                    automatically in another.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -805,14 +842,16 @@
                             </div>
                         </div>
                         <div class="ml-4">
-                            <dt
-                                class="text-lg leading-6 font-medium text-gray-900">
-                                For Your Needs
-                            </dt>
-                            <dd class="mt-2 text-base text-gray-500">
-                                Each automation is designed specifically to
-                                solve a problem for you.
-                            </dd>
+                            <dl>
+                                <dt
+                                    class="text-lg leading-6 font-medium text-gray-900">
+                                    For Your Needs
+                                </dt>
+                                <dd class="mt-2 text-base text-gray-500">
+                                    Each automation is designed specifically to
+                                    solve a problem for you.
+                                </dd>
+                            </dl>
                         </div>
                     </div>
 
@@ -836,14 +875,16 @@
                                 </div>
                             </div>
                             <div class="ml-4">
-                                <dt
-                                    class="text-lg leading-6 font-medium text-gray-900">
-                                    And more...
-                                </dt>
-                                <dd class="mt-2 text-base text-gray-500">
-                                    Learn more about how automation can improve
-                                    the processes of your business.
-                                </dd>
+                                <dl>
+                                    <dt
+                                        class="text-lg leading-6 font-medium text-gray-900">
+                                        And more...
+                                    </dt>
+                                    <dd class="mt-2 text-base text-gray-500">
+                                        Learn more about how automation can
+                                        improve the processes of your business.
+                                    </dd>
+                                </dl>
                             </div>
                         </div>
                     </a>
