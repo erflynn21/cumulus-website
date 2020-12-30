@@ -31,6 +31,7 @@
                 <a
                     href="/"
                     class="text-lg font-semibold"
+                    style="max-height:28px;"
                     on:click={() => (servicesOpen = false)}>Cumulus Creative</a>
             </div>
 
