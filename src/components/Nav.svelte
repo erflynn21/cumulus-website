@@ -9,7 +9,7 @@
 <div class="relative">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-6 md:space-x-10">
-            <div class="flex justify-start lg:w-0 lg:flex-1">
+            <div class="flex justify-center lg:w-0 lg:flex-1">
                 <!-- <a href="#">
                     <span class="sr-only">Workflow</span>
                     <img
@@ -18,7 +18,7 @@
                         alt="" />
                 </a> -->
                 <svg
-                    class="w-6 mr-2 text-secondary"
+                    class="w-6 h-6 mr-2 text-secondary"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
