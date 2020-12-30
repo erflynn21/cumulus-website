@@ -9,7 +9,7 @@
 <div class="relative">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-6 md:space-x-10">
-            <div class="flex justify-center lg:w-0 lg:flex-1">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
                 <!-- <a href="#">
                     <span class="sr-only">Workflow</span>
                     <img
@@ -31,7 +31,6 @@
                 <a
                     href="/"
                     class="text-lg font-semibold"
-                    style="max-height:28px;"
                     on:click={() => (servicesOpen = false)}>Cumulus Creative</a>
             </div>
 
