@@ -5,6 +5,10 @@
     };
 </script>
 
+<svelte:head>
+    <title>Cumulus Creative Services - Contact</title>
+</svelte:head>
+
 <div class="relative bg-white mb-20">
     <div class="absolute inset-0">
         <div class="absolute inset-y-0 left-0 w-1/2 bg-white" />
@@ -72,6 +76,7 @@
             <div class="max-w-lg mx-auto lg:max-w-none">
                 <form
                     name="contact"
+                    action="POST"
                     netlify
                     on:submit|preventDefault={displayMessage}
                     class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">

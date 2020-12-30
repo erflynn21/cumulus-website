@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>Cumulus Creative Services - Mobile Apps</title>
+</svelte:head>
+
 <section name="hero">
     <div class="relative bg-white overflow-hidden mb-10">
         <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">

@@ -2,7 +2,7 @@
 </script>
 
 <svelte:head>
-    <title>Cumulus Creative Services</title>
+    <title>Cumulus Creative Services - Home</title>
 </svelte:head>
 
 <section name="hero">
