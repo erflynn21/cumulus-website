@@ -30,6 +30,7 @@
                 </svg>
                 <a
                     href="/"
+                    name="home"
                     class="text-lg font-semibold"
                     on:click={() => (servicesOpen = false)}>Cumulus Creative</a>
             </div>
@@ -115,6 +116,7 @@
                                     class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                                     <a
                                         href="websites"
+                                        name="websites"
                                         class:bg-gray-100={segment === 'websites'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -145,6 +147,7 @@
 
                                     <a
                                         href="web-apps"
+                                        name="web apps"
                                         class:bg-gray-100={segment === 'web-apps'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -177,6 +180,7 @@
 
                                     <a
                                         href="mobile-apps"
+                                        name="mobile apps"
                                         class:bg-gray-100={segment === 'mobile-apps'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -206,6 +210,7 @@
 
                                     <a
                                         href="technology-consulting"
+                                        name="technology consoluting apps"
                                         class:bg-gray-100={segment === 'technology-consulting'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -235,6 +240,7 @@
 
                                     <a
                                         href="automation"
+                                        name="automation"
                                         class:bg-gray-100={segment === 'automation'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
@@ -277,6 +283,7 @@
                 </a> -->
                 <a
                     href="contact"
+                    name="contact"
                     class:text-gray-900={segment === 'contact'}
                     on:click={(servicesOpen = false)}
                     class="text-base font-medium text-gray-500 hover:text-gray-900">
