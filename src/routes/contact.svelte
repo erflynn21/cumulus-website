@@ -25,17 +25,17 @@
     };
 
     const handleSubmit = () => {
-        // fetch('/', {
-        //     method: 'POST',
-        //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        //     body: encode({ 'form-name': 'contact', ...formData }),
-        // })
-        //     .then(
-        //         () =>
-        //             (message = `Thanks for reaching out! We've received your information and will get back to you shortly!`)
-        //     )
-        //     .catch((error) => alert(error));
-        console.log(formData);
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: encode({ 'form-name': 'contact', ...formData }),
+        })
+            .then(
+                () =>
+                    (message = `Thanks for reaching out! We've received your information and will get back to you shortly!`)
+            )
+            .catch((error) => alert(error));
+        // console.log(formData);
         formData = {
             firstName: '',
             lastName: '',
