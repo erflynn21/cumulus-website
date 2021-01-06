@@ -11,7 +11,7 @@
         hearAbout: '',
     };
 
-    let message = '';
+    let successMessage = false;
 
     const encode = (data) => {
         return Object.keys(data)
@@ -30,10 +30,7 @@
             headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
             body: encode({ 'form-name': 'contact', ...formData }),
         })
-            .then(
-                () =>
-                    (message = `Thanks for reaching out! We've received your information and will get back to you shortly!`)
-            )
+            .then(() => (successMessage = true))
             .catch((error) => alert(error));
         // console.log(formData);
         formData = {
@@ -47,6 +44,17 @@
             project: '',
             hearAbout: '',
         };
+
+        document.getElementById('website_dev').checked = false;
+        document.getElementById('web_app_dev').checked = false;
+        document.getElementById('mobile_app_dev').checked = false;
+        document.getElementById('technology_consulting').checked = false;
+        document.getElementById('automation').checked = false;
+        document.getElementById('budget_under_5k').checked = false;
+        document.getElementById('budget_5k-15k').checked = false;
+        document.getElementById('budget_15k-30k').checked = false;
+        document.getElementById('budget_30k-50k').checked = false;
+        document.getElementById('budget_over_50k').checked = false;
     };
 
     const handleServices = (value) => {
@@ -256,9 +264,9 @@
                             <div class="flex items-center">
                                 <label>
                                     <input
-                                        id="tecnology_consulting"
+                                        id="technology_consulting"
                                         name="servicesRequired"
-                                        value="tecnology_consulting"
+                                        value="technology_consulting"
                                         type="checkbox"
                                         on:click={() => handleServices('Technology Consulting')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
@@ -303,7 +311,7 @@
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <label for="budget_25k-50k">
+                                <label for="budget_5k-15k">
                                     <input
                                         id="budget_5k-15k"
                                         name="budget"
@@ -397,11 +405,91 @@
                             Submit
                         </button>
                     </div>
-                    <div class="text-center sm:col-span-2">
-                        <p>{message}</p>
-                    </div>
                 </form>
             </div>
         </div>
     </div>
 </div>
+
+{#if successMessage === true}
+    <!-- This example requires Tailwind CSS v2.0+ -->
+    <div class="fixed z-10 inset-0 overflow-y-auto">
+        <div
+            class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            <!--
+      Background overlay, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0"
+        To: "opacity-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100"
+        To: "opacity-0"
+    -->
+            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+                <div class="absolute inset-0 bg-gray-500 opacity-75" />
+            </div>
+
+            <!-- This element is to trick the browser into centering the modal contents. -->
+            <span
+                class="hidden sm:inline-block sm:align-middle sm:h-screen"
+                aria-hidden="true">&#8203;</span>
+            <!--
+      Modal panel, show/hide based on modal state.
+
+      Entering: "ease-out duration-300"
+        From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        To: "opacity-100 translate-y-0 sm:scale-100"
+      Leaving: "ease-in duration-200"
+        From: "opacity-100 translate-y-0 sm:scale-100"
+        To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+    -->
+            <div
+                class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6"
+                role="dialog"
+                aria-modal="true"
+                aria-labelledby="modal-headline">
+                <div>
+                    <div
+                        class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-light">
+                        <!-- Heroicon name: check -->
+                        <svg
+                            class="h-6 w-6 text-primary"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true">
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+                    <div class="mt-3 text-center sm:mt-5">
+                        <h3
+                            class="text-lg leading-6 font-medium text-gray-900"
+                            id="modal-headline">
+                            Success!
+                        </h3>
+                        <div class="mt-2">
+                            <p class="text-sm text-gray-500">
+                                We've got your information and will respond to
+                                you as soon as we can. Have a great day!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-5 sm:mt-6">
+                    <button
+                        on:click={() => (successMessage = false)}
+                        type="button"
+                        class="inline-flex justify-center w-full rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-seconary focus:outline-none">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{/if}

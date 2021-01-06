@@ -10,6 +10,7 @@ module.exports = {
         primary: '#008DB9',
         secondary: '#00AAC2',
         highlighted:'#C9F7FF',
+        light: '#E6F4F1',
       },
       fontFmaily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
