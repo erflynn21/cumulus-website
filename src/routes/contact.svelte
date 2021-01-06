@@ -207,8 +207,78 @@
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
-
                     <fieldset class="col-span-1">
+                        <legend class="block text-sm font-medium text-gray-700">
+                            Services Required
+                        </legend>
+                        <div class="mt-4 grid grid-cols-1 gap-y-4">
+                            <div class="flex items-center">
+                                <label>
+                                    <input
+                                        id="website_dev"
+                                        name="services-required"
+                                        value="website_dev"
+                                        type="checkbox"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span
+                                        class="ml-2 text-sm text-gray-700">Website
+                                        Development</span>
+                                </label>
+                            </div>
+                            <div class="flex items-center">
+                                <label>
+                                    <input
+                                        id="web_app_dev"
+                                        name="services-required"
+                                        value="web_app_dev"
+                                        type="checkbox"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span class="ml-2 text-sm text-gray-700">Web
+                                        App Development</span>
+                                </label>
+                            </div>
+                            <div class="flex items-center">
+                                <label>
+                                    <input
+                                        id="mobile_app_dev"
+                                        name="services-required"
+                                        value="mobile_app_dev"
+                                        type="checkbox"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span
+                                        class="ml-2 text-sm text-gray-700">Mobile
+                                        App Development</span>
+                                </label>
+                            </div>
+                            <div class="flex items-center">
+                                <label>
+                                    <input
+                                        id="tecnology_consulting"
+                                        name="services-required"
+                                        value="tecnology_consulting"
+                                        type="checkbox"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span
+                                        class="ml-2 text-sm text-gray-700">Technology
+                                        Consulting</span>
+                                </label>
+                            </div>
+                            <div class="flex items-center">
+                                <label>
+                                    <input
+                                        id="automation"
+                                        name="services-required"
+                                        value="automation"
+                                        type="checkbox"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span
+                                        class="ml-2 text-sm text-gray-700">Automation</span>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <!-- <fieldset class="col-span-1">
                         <legend class="block text-sm font-medium text-gray-700">
                             Services Required
                         </legend>
@@ -282,7 +352,7 @@
                                 </label>
                             </div>
                         </div>
-                    </fieldset>
+                    </fieldset> -->
                     <fieldset class="col-span-1 mb-4">
                         <legend class="block text-sm font-medium text-gray-700">
                             Expected budget
