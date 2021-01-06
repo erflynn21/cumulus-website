@@ -6,7 +6,7 @@
         company: '',
         phone: '',
         servicesRequired: [],
-        expectedBudget: 0,
+        budget: '',
         project: '',
         hearAbout: '',
     };
@@ -25,17 +25,17 @@
     };
 
     const handleSubmit = () => {
-        fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({ 'form-name': 'contact', ...formData }),
-        })
-            .then(
-                () =>
-                    (message = `Thanks for reaching out! We've received your information and will get back to you shortly!`)
-            )
-            .catch((error) => alert(error));
-
+        // fetch('/', {
+        //     method: 'POST',
+        //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        //     body: encode({ 'form-name': 'contact', ...formData }),
+        // })
+        //     .then(
+        //         () =>
+        //             (message = `Thanks for reaching out! We've received your information and will get back to you shortly!`)
+        //     )
+        //     .catch((error) => alert(error));
+        console.log(formData);
         formData = {
             firstName: '',
             lastName: '',
@@ -131,14 +131,14 @@
                     class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                     <div>
                         <label
-                            for="first_name"
+                            for="firstName"
                             class="block text-sm font-medium text-gray-700">First
                             Name</label>
                         <div class="mt-1">
                             <input
                                 type="text"
-                                name="first_name"
-                                id="first_name"
+                                name="firstName"
+                                id="firstName"
                                 autocomplete="given-name"
                                 bind:value={formData.firstName}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
@@ -146,14 +146,14 @@
                     </div>
                     <div>
                         <label
-                            for="last_name"
+                            for="lastName"
                             class="block text-sm font-medium text-gray-700">Last
                             Name</label>
                         <div class="mt-1">
                             <input
                                 type="text"
-                                name="last_name"
-                                id="last_name"
+                                name="lastName"
+                                id="lastName"
                                 autocomplete="family-name"
                                 bind:value={formData.lastName}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
@@ -295,6 +295,7 @@
                                         name="budget"
                                         value="under 5k"
                                         type="radio"
+                                        on:click={() => (formData.budget = 'under 5k')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">Less
@@ -308,6 +309,7 @@
                                         name="budget"
                                         value="5k-15k"
                                         type="radio"
+                                        on:click={() => (formData.budget = '5k-15k')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span class="ml-2 text-sm text-gray-700">$5K
                                         – $15K</span>
@@ -320,6 +322,7 @@
                                         name="budget"
                                         value="15k-30k"
                                         type="radio"
+                                        on:click={() => (formData.budget = '15k-30k')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">$15K
@@ -333,6 +336,7 @@
                                         name="budget"
                                         value="30k-50k"
                                         type="radio"
+                                        on:click={() => (formData.budget = '30k-50k')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">$30K
@@ -346,6 +350,7 @@
                                         name="budget"
                                         value="over_50k"
                                         type="radio"
+                                        on:click={() => (formData.budget = 'over_50k')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">$50K+</span>
