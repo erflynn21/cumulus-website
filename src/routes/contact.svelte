@@ -1,7 +1,50 @@
 <script>
+    let formData = {
+        firstName: '',
+        lastName: '',
+        email: '',
+        company: '',
+        phone: '',
+        servicesRequired: [],
+        expectedBudget: 0,
+        project: '',
+        hearAbout: '',
+    };
+
     let message = '';
-    const displayMessage = () => {
-        message = `Thanks for reaching out! We've received your information and will get back to you shortly!`;
+
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(
+                (key) =>
+                    encodeURIComponent(key) +
+                    '=' +
+                    encodeURIComponent(data[key])
+            )
+            .join('&');
+    };
+
+    const handleSubmit = () => {
+        fetch('/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+            body: encode({ 'form-name': 'contact', ...formData }),
+        })
+            .then(
+                () =>
+                    (message = `Thanks for reaching out! We've received your information and will get back to you shortly!`)
+            )
+            .catch((error) => alert(error));
+
+        formData = {
+            name: '',
+            email: '',
+            message: '',
+        };
+    };
+
+    const handleServices = (value) => {
+        formData.servicesRequired = [...formData.servicesRequired, value];
     };
 </script>
 
@@ -22,8 +65,8 @@
                     Get in touch
                 </h2>
                 <p class="mt-3 text-lg leading-6 text-white">
-                    Let us know how we can build the web and cloud solutions
-                    your business needs.
+                    Let us know how we can build the web and cloud solutions to
+                    solve your business needs.
                 </p>
                 <dl class="mt-8 text-base text-white">
                     <div class="mt-6">
@@ -78,7 +121,7 @@
                     name="contact"
                     action="POST"
                     netlify
-                    on:submit|preventDefault={displayMessage}
+                    on:submit|preventDefault={handleSubmit}
                     class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
                     <div>
                         <label
@@ -91,6 +134,7 @@
                                 name="first_name"
                                 id="first_name"
                                 autocomplete="given-name"
+                                bind:value={formData.firstName}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
@@ -105,6 +149,7 @@
                                 name="last_name"
                                 id="last_name"
                                 autocomplete="family-name"
+                                bind:value={formData.lastName}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
@@ -118,6 +163,7 @@
                                 name="email"
                                 type="email"
                                 autocomplete="email"
+                                bind:value={formData.email}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
@@ -131,6 +177,7 @@
                                 name="company"
                                 id="company"
                                 autocomplete="organization"
+                                bind:value={formData.company}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
@@ -150,6 +197,7 @@
                                 id="phone"
                                 autocomplete="tel"
                                 aria-describedby="phone_description"
+                                bind:value={formData.phone}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
@@ -165,6 +213,7 @@
                                     name="website-dev"
                                     value="website development"
                                     type="radio"
+                                    on:click={() => handleServices('Website Development')}
                                     class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                 <label for="website_dev" class="ml-3">
                                     <span
@@ -178,6 +227,7 @@
                                     name="web-app-dev"
                                     value="web app development"
                                     type="radio"
+                                    on:click={() => handleServices('Web App Development')}
                                     class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                 <label for="web_app_dev" class="ml-3">
                                     <span
@@ -191,6 +241,7 @@
                                     name="mobile-app-dev"
                                     value="mobile app development"
                                     type="radio"
+                                    on:click={() => handleServices('Mobile App Development')}
                                     class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                 <label for="mobile_app_dev" class="ml-3">
                                     <span
@@ -204,6 +255,7 @@
                                     name="tech-consulting"
                                     value="technology consulting"
                                     type="radio"
+                                    on:click={() => handleServices('Technology Consulting')}
                                     class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                 <label for="tech_consulting" class="ml-3">
                                     <span
@@ -217,6 +269,7 @@
                                     name="automation"
                                     value="automation"
                                     type="radio"
+                                    on:click={() => handleServices('Automation')}
                                     class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                 <label for="automation" class="ml-3">
                                     <span
@@ -310,6 +363,7 @@
                                 name="how_can_we_help"
                                 aria-describedby="how_can_we_help_description"
                                 rows="4"
+                                bind:value={formData.project}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
                         </div>
                     </div>
@@ -323,6 +377,7 @@
                                 type="text"
                                 name="how_did_you_hear_about_us"
                                 id="how_did_you_hear_about_us"
+                                bind:value={formData.hearAbout}
                                 class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" />
                         </div>
                     </div>
