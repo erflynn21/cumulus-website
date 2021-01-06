@@ -42,8 +42,8 @@
             email: '',
             company: '',
             phone: '',
-            servicesRequired: [],
-            expectedBudget: 0,
+            servicesRequired: '',
+            expectedBudget: '',
             project: '',
             hearAbout: '',
         };
@@ -216,7 +216,7 @@
                                 <label>
                                     <input
                                         id="website_dev"
-                                        name="services-required"
+                                        name="servicesRequired"
                                         value="website_dev"
                                         type="checkbox"
                                         on:click={() => handleServices('Website Development')}
@@ -230,7 +230,7 @@
                                 <label>
                                     <input
                                         id="web_app_dev"
-                                        name="services-required"
+                                        name="servicesRequired"
                                         value="web_app_dev"
                                         type="checkbox"
                                         on:click={() => handleServices('Web App Development')}
@@ -243,7 +243,7 @@
                                 <label>
                                     <input
                                         id="mobile_app_dev"
-                                        name="services-required"
+                                        name="servicesRequired"
                                         value="mobile_app_dev"
                                         type="checkbox"
                                         on:click={() => handleServices('Mobile App Development')}
@@ -257,7 +257,7 @@
                                 <label>
                                     <input
                                         id="tecnology_consulting"
-                                        name="services-required"
+                                        name="servicesRequired"
                                         value="tecnology_consulting"
                                         type="checkbox"
                                         on:click={() => handleServices('Technology Consulting')}
@@ -271,7 +271,7 @@
                                 <label>
                                     <input
                                         id="automation"
-                                        name="services-required"
+                                        name="servicesRequired"
                                         value="automation"
                                         type="checkbox"
                                         on:click={() => handleServices('Automation')}
@@ -283,81 +283,6 @@
                         </div>
                     </fieldset>
 
-                    <!-- <fieldset class="col-span-1">
-                        <legend class="block text-sm font-medium text-gray-700">
-                            Services Required
-                        </legend>
-                        <div class="mt-4 grid grid-cols-1 gap-y-4">
-                            <div class="flex items-center">
-                                <label for="website_dev">
-                                    <input
-                                        id="website_dev"
-                                        name="services-required"
-                                        value="website development"
-                                        type="checkbox"
-                                        on:click={() => handleServices('Website Development')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Website
-                                        Development</span>
-                                </label>
-                            </div>
-                            <div class="flex items-center">
-                                <label for="web_app_dev">
-                                    <input
-                                        id="web_app_dev"
-                                        name="services-required"
-                                        value="web app development"
-                                        type="checkbox"
-                                        on:click={() => handleServices('Web App Development')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span class="ml-2 text-sm text-gray-700">Web
-                                        App Development</span>
-                                </label>
-                            </div>
-                            <div class="flex items-center">
-                                <label for="mobile_app_dev">
-                                    <input
-                                        id="mobile_app_dev"
-                                        name="services-required"
-                                        value="mobile app development"
-                                        type="checkbox"
-                                        on:click={() => handleServices('Mobile App Development')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Mobile
-                                        App Development</span>
-                                </label>
-                            </div>
-                            <div class="flex items-center">
-                                <label for="tech_consulting">
-                                    <input
-                                        id="tech_consulting"
-                                        name="services-required"
-                                        value="technology consulting"
-                                        type="checkbox"
-                                        on:click={() => handleServices('Technology Consulting')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Technology
-                                        Consulting</span>
-                                </label>
-                            </div>
-                            <div class="flex items-center">
-                                <label for="automation">
-                                    <input
-                                        id="automation"
-                                        name="services-required"
-                                        value="automation"
-                                        type="checkbox"
-                                        on:click={() => handleServices('Automation')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Automation</span>
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset> -->
                     <fieldset class="col-span-1 mb-4">
                         <legend class="block text-sm font-medium text-gray-700">
                             Expected budget
