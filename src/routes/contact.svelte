@@ -216,7 +216,7 @@
                                 <label>
                                     <input
                                         id="website_dev"
-                                        name="string[]"
+                                        name="website-dev"
                                         value="website_dev"
                                         type="checkbox"
                                         on:click={() => handleServices('Website Development')}
@@ -230,7 +230,7 @@
                                 <label>
                                     <input
                                         id="web_app_dev"
-                                        name="string[]"
+                                        name="web-app-dev"
                                         value="web_app_dev"
                                         type="checkbox"
                                         on:click={() => handleServices('Web App Development')}
@@ -243,7 +243,7 @@
                                 <label>
                                     <input
                                         id="mobile_app_dev"
-                                        name="string[]"
+                                        name="mobile-app-dev"
                                         value="mobile_app_dev"
                                         type="checkbox"
                                         on:click={() => handleServices('Mobile App Development')}
@@ -257,7 +257,7 @@
                                 <label>
                                     <input
                                         id="tecnology_consulting"
-                                        name="string[]"
+                                        name="technology-consulting"
                                         value="tecnology_consulting"
                                         type="checkbox"
                                         on:click={() => handleServices('Technology Consulting')}
@@ -271,7 +271,7 @@
                                 <label>
                                     <input
                                         id="automation"
-                                        name="string[]"
+                                        name="automation"
                                         value="automation"
                                         type="checkbox"
                                         on:click={() => handleServices('Automation')}
