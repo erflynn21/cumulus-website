@@ -219,6 +219,7 @@
                                         name="services-required"
                                         value="website_dev"
                                         type="checkbox"
+                                        on:click={() => handleServices('Website Development')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">Website
@@ -232,6 +233,7 @@
                                         name="services-required"
                                         value="web_app_dev"
                                         type="checkbox"
+                                        on:click={() => handleServices('Web App Development')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span class="ml-2 text-sm text-gray-700">Web
                                         App Development</span>
@@ -244,6 +246,7 @@
                                         name="services-required"
                                         value="mobile_app_dev"
                                         type="checkbox"
+                                        on:click={() => handleServices('Mobile App Development')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">Mobile
@@ -257,6 +260,7 @@
                                         name="services-required"
                                         value="tecnology_consulting"
                                         type="checkbox"
+                                        on:click={() => handleServices('Technology Consulting')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">Technology
@@ -270,6 +274,7 @@
                                         name="services-required"
                                         value="automation"
                                         type="checkbox"
+                                        on:click={() => handleServices('Automation')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
                                         class="ml-2 text-sm text-gray-700">Automation</span>
