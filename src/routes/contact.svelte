@@ -37,9 +37,15 @@
             .catch((error) => alert(error));
 
         formData = {
-            name: '',
+            firstName: '',
+            lastName: '',
             email: '',
-            message: '',
+            company: '',
+            phone: '',
+            servicesRequired: [],
+            expectedBudget: 0,
+            project: '',
+            hearAbout: '',
         };
     };
 
