@@ -217,7 +217,7 @@
                                 <label for="website_dev">
                                     <input
                                         id="website_dev"
-                                        name="website-dev"
+                                        name="services-required"
                                         value="website development"
                                         type="checkbox"
                                         on:click={() => handleServices('Website Development')}
@@ -231,7 +231,7 @@
                                 <label for="web_app_dev">
                                     <input
                                         id="web_app_dev"
-                                        name="web-app-dev"
+                                        name="services-required"
                                         value="web app development"
                                         type="checkbox"
                                         on:click={() => handleServices('Web App Development')}
@@ -244,7 +244,7 @@
                                 <label for="mobile_app_dev">
                                     <input
                                         id="mobile_app_dev"
-                                        name="mobile-app-dev"
+                                        name="services-required"
                                         value="mobile app development"
                                         type="checkbox"
                                         on:click={() => handleServices('Mobile App Development')}
@@ -258,7 +258,7 @@
                                 <label for="tech_consulting">
                                     <input
                                         id="tech_consulting"
-                                        name="tech-consulting"
+                                        name="services-required"
                                         value="technology consulting"
                                         type="checkbox"
                                         on:click={() => handleServices('Technology Consulting')}
@@ -272,7 +272,7 @@
                                 <label for="automation">
                                     <input
                                         id="automation"
-                                        name="automation"
+                                        name="services-required"
                                         value="automation"
                                         type="checkbox"
                                         on:click={() => handleServices('Automation')}
