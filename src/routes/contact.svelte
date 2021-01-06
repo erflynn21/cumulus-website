@@ -219,7 +219,7 @@
                                         id="website_dev"
                                         name="website-dev"
                                         value="website development"
-                                        type="radio"
+                                        type="checkbox"
                                         on:click={() => handleServices('Website Development')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
@@ -233,7 +233,7 @@
                                         id="web_app_dev"
                                         name="web-app-dev"
                                         value="web app development"
-                                        type="radio"
+                                        type="checkbox"
                                         on:click={() => handleServices('Web App Development')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span class="ml-2 text-sm text-gray-700">Web
@@ -246,7 +246,7 @@
                                         id="mobile_app_dev"
                                         name="mobile-app-dev"
                                         value="mobile app development"
-                                        type="radio"
+                                        type="checkbox"
                                         on:click={() => handleServices('Mobile App Development')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
@@ -260,7 +260,7 @@
                                         id="tech_consulting"
                                         name="tech-consulting"
                                         value="technology consulting"
-                                        type="radio"
+                                        type="checkbox"
                                         on:click={() => handleServices('Technology Consulting')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
@@ -274,7 +274,7 @@
                                         id="automation"
                                         name="automation"
                                         value="automation"
-                                        type="radio"
+                                        type="checkbox"
                                         on:click={() => handleServices('Automation')}
                                         class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
@@ -361,16 +361,16 @@
                     <div class="sm:col-span-2">
                         <div class="flex justify-between">
                             <label
-                                for="how_can_we_help"
+                                for="project"
                                 class="block text-sm font-medium text-gray-700">Tell
                                 us a bit about your project, requirements, and
                                 anything else that might be helpful.</label>
                         </div>
                         <div class="mt-1">
                             <textarea
-                                id="how_can_we_help"
-                                name="how_can_we_help"
-                                aria-describedby="how_can_we_help_description"
+                                id="project"
+                                name="project"
+                                aria-describedby="project_description"
                                 rows="4"
                                 bind:value={formData.project}
                                 class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
@@ -378,14 +378,14 @@
                     </div>
                     <div class="sm:col-span-2">
                         <label
-                            for="how_did_you_hear_about_us"
+                            for="hearAbout"
                             class="block text-sm font-medium text-gray-700">How
                             did you hear about us?</label>
                         <div class="mt-1">
                             <input
                                 type="text"
-                                name="how_did_you_hear_about_us"
-                                id="how_did_you_hear_about_us"
+                                name="hearAbout"
+                                id="hearAbout"
                                 bind:value={formData.hearAbout}
                                 class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" />
                         </div>
