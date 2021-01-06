@@ -214,72 +214,71 @@
                         </legend>
                         <div class="mt-4 grid grid-cols-1 gap-y-4">
                             <div class="flex items-center">
-                                <input
-                                    id="website_dev"
-                                    name="website-dev"
-                                    value="website development"
-                                    type="radio"
-                                    on:click={() => handleServices('Website Development')}
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="website_dev" class="ml-3">
+                                <label for="website_dev">
+                                    <input
+                                        id="website_dev"
+                                        name="website-dev"
+                                        value="website development"
+                                        type="radio"
+                                        on:click={() => handleServices('Website Development')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">Website
+                                        class="ml-2 text-sm text-gray-700">Website
                                         Development</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="web_app_dev"
-                                    name="web-app-dev"
-                                    value="web app development"
-                                    type="radio"
-                                    on:click={() => handleServices('Web App Development')}
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="web_app_dev" class="ml-3">
-                                    <span
-                                        class="block text-sm text-gray-700">Web
+                                <label for="web_app_dev">
+                                    <input
+                                        id="web_app_dev"
+                                        name="web-app-dev"
+                                        value="web app development"
+                                        type="radio"
+                                        on:click={() => handleServices('Web App Development')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span class="ml-2 text-sm text-gray-700">Web
                                         App Development</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="mobile_app_dev"
-                                    name="mobile-app-dev"
-                                    value="mobile app development"
-                                    type="radio"
-                                    on:click={() => handleServices('Mobile App Development')}
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="mobile_app_dev" class="ml-3">
+                                <label for="mobile_app_dev">
+                                    <input
+                                        id="mobile_app_dev"
+                                        name="mobile-app-dev"
+                                        value="mobile app development"
+                                        type="radio"
+                                        on:click={() => handleServices('Mobile App Development')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">Mobile
+                                        class="ml-2 text-sm text-gray-700">Mobile
                                         App Development</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="tech_consulting"
-                                    name="tech-consulting"
-                                    value="technology consulting"
-                                    type="radio"
-                                    on:click={() => handleServices('Technology Consulting')}
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="tech_consulting" class="ml-3">
+                                <label for="tech_consulting">
+                                    <input
+                                        id="tech_consulting"
+                                        name="tech-consulting"
+                                        value="technology consulting"
+                                        type="radio"
+                                        on:click={() => handleServices('Technology Consulting')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">Technology
+                                        class="ml-2 text-sm text-gray-700">Technology
                                         Consulting</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="automation"
-                                    name="automation"
-                                    value="automation"
-                                    type="radio"
-                                    on:click={() => handleServices('Automation')}
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="automation" class="ml-3">
+                                <label for="automation">
+                                    <input
+                                        id="automation"
+                                        name="automation"
+                                        value="automation"
+                                        type="radio"
+                                        on:click={() => handleServices('Automation')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">Automation</span>
+                                        class="ml-2 text-sm text-gray-700">Automation</span>
                                 </label>
                             </div>
                         </div>
@@ -290,67 +289,66 @@
                         </legend>
                         <div class="mt-4 grid grid-cols-1 gap-y-4">
                             <div class="flex items-center">
-                                <input
-                                    id="budget_under_5k"
-                                    name="budget"
-                                    value="under 5k"
-                                    type="radio"
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="budget_under_5k" class="ml-3">
+                                <label>
+                                    <input
+                                        id="budget_under_5k"
+                                        name="budget"
+                                        value="under 5k"
+                                        type="radio"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">Less
+                                        class="ml-2 text-sm text-gray-700">Less
                                         than $5K</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="budget_5k-15k"
-                                    name="budget"
-                                    value="5k-15k"
-                                    type="radio"
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="budget_25k-50k" class="ml-3">
-                                    <span
-                                        class="block text-sm text-gray-700">$5K
+                                <label for="budget_25k-50k">
+                                    <input
+                                        id="budget_5k-15k"
+                                        name="budget"
+                                        value="5k-15k"
+                                        type="radio"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
+                                    <span class="ml-2 text-sm text-gray-700">$5K
                                         – $15K</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="budget_15k-30k"
-                                    name="budget"
-                                    value="15k-30k"
-                                    type="radio"
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="budget_15k-30k" class="ml-3">
+                                <label for="budget_15k-30k">
+                                    <input
+                                        id="budget_15k-30k"
+                                        name="budget"
+                                        value="15k-30k"
+                                        type="radio"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">$15K
+                                        class="ml-2 text-sm text-gray-700">$15K
                                         – $30K</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="budget_30k-50k"
-                                    name="budget"
-                                    value="30k-50k"
-                                    type="radio"
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="budget_30k-50k" class="ml-3">
+                                <label for="budget_30k-50k">
+                                    <input
+                                        id="budget_30k-50k"
+                                        name="budget"
+                                        value="30k-50k"
+                                        type="radio"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">$30K
+                                        class="ml-2 text-sm text-gray-700">$30K
                                         - $50k</span>
                                 </label>
                             </div>
                             <div class="flex items-center">
-                                <input
-                                    id="budget_over_50k"
-                                    name="budget"
-                                    value="over_50k"
-                                    type="radio"
-                                    class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                <label for="budget_over_50k" class="ml-3">
+                                <label for="budget_over_50k">
+                                    <input
+                                        id="budget_over_50k"
+                                        name="budget"
+                                        value="over_50k"
+                                        type="radio"
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
                                     <span
-                                        class="block text-sm text-gray-700">$50K+</span>
+                                        class="ml-2 text-sm text-gray-700">$50K+</span>
                                 </label>
                             </div>
                         </div>
