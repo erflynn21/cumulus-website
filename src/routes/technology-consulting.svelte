@@ -3,6 +3,9 @@
     <meta
         name="description"
         content="Analyzing and advising on the best and latest technology solutions specifically tailored to you." />
+    <meta
+        name="keywords"
+        content="technology consulting, technology, IT, advising, analysis" />
 </svelte:head>
 
 <section name="hero">

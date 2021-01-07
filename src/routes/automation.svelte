@@ -3,6 +3,9 @@
     <meta
         name="description"
         content="Custom designed and built automation solutions to solve your business needs." />
+    <meta
+        name="keywords"
+        content="automation, processes, google drive, clickup, zapier, integromat" />
 </svelte:head>
 
 <section name="hero">

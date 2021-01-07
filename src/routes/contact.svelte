@@ -69,6 +69,7 @@
     <meta
         name="description"
         content="Get in touch to request a quote for the services your business requires." />
+    <meta name="keywords" content="contact, request a quote" />
 </svelte:head>
 
 <div class="relative bg-white mb-20">

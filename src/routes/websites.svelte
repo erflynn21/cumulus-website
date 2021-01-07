@@ -3,6 +3,9 @@
     <meta
         name="description"
         content="Modern, performant and responsive websites specifically designed for you." />
+    <meta
+        name="keywords"
+        content="web development, website development, html, css, javascript, svelte, sapper, netlify, cloudflare" />
 </svelte:head>
 
 <section name="hero">

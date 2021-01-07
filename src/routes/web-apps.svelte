@@ -3,6 +3,9 @@
     <meta
         name="description"
         content="Web apps designed as internal tools for your organization or customer-facing SaaS products." />
+    <meta
+        name="keywords"
+        content="web development, web app development, html, css, javascript, svelte, sapper, firebase, userbase, netlify, cloudflare, mongoDB" />
 </svelte:head>
 
 <section name="hero">

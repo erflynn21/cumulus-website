@@ -3,6 +3,9 @@
     <meta
         name="description"
         content="Mobile apps designed for you and deployed to app stores of your choice." />
+    <meta
+        name="keywords"
+        content="mobile app development, html, css, javascript, svelte, firebase, userbase, mongoDB, capacitor, framework7" />
 </svelte:head>
 
 <section name="hero">

@@ -9,6 +9,9 @@
     <meta
         name="description"
         content="A development agency providing websites, web apps, mobile apps, technology consulting and automation services to customers worldwide." />
+    <meta
+        name="keywords"
+        content="web development, website development, web app development, mobile app development, technology consulting, automation, processes, html, css, javascript, svelte, sapper, firebase, userbase, netlify, cloudflare, mongoDB, google drive, clickup, capacitor, framework7, zapier, integromat, strapi" />
 </svelte:head>
 
 <section name="hero">
