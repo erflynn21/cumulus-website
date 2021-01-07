@@ -65,7 +65,10 @@
 </script>
 
 <svelte:head>
-    <title>Cumulus Creative Services - Contact</title>
+    <title>Contact - Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="Get in touch to request a quote for the services your business requires." />
 </svelte:head>
 
 <div class="relative bg-white mb-20">

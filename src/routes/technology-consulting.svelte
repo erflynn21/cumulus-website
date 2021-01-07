@@ -1,5 +1,8 @@
 <svelte:head>
-    <title>Cumulus Creative Services - Technology Consulting</title>
+    <title>Technology Consulting - Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="Analyzing and advising on the best and latest technology solutions specifically tailored to you." />
 </svelte:head>
 
 <section name="hero">

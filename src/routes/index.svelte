@@ -2,7 +2,10 @@
 </script>
 
 <svelte:head>
-    <title>Cumulus Creative Services - Home</title>
+    <title>Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="A development agency providing websites, web apps, mobile apps, technology consulting and automation services to customers worldwide." />
 </svelte:head>
 
 <section name="hero">

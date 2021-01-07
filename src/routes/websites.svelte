@@ -1,5 +1,8 @@
 <svelte:head>
-    <title>Cumulus Creative Services - Websites</title>
+    <title>Websites - Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="Modern, performant and responsive websites specifically designed for you." />
 </svelte:head>
 
 <section name="hero">

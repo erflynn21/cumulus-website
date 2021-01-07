@@ -1,5 +1,8 @@
 <svelte:head>
-    <title>Cumulus Creative Services - Web Apps</title>
+    <title>Web Apps - Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="Web apps designed as internal tools for your organization or customer-facing SaaS products." />
 </svelte:head>
 
 <section name="hero">

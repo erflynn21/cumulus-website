@@ -1,5 +1,8 @@
 <svelte:head>
-    <title>Cumulus Creative Services - Mobile Apps</title>
+    <title>Mobile Apps - Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="Mobile apps designed for you and deployed to app stores of your choice." />
 </svelte:head>
 
 <section name="hero">

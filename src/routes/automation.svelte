@@ -1,5 +1,8 @@
 <svelte:head>
-    <title>Cumulus Creative Services - Automation</title>
+    <title>Automation - Cumulus Creative Services</title>
+    <meta
+        name="description"
+        content="Custom designed and built automation solutions to solve your business needs." />
 </svelte:head>
 
 <section name="hero">
