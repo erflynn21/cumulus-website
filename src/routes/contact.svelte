@@ -1,4 +1,6 @@
 <script>
+    import { fade } from 'svelte/transition';
+
     let formData = {
         firstName: '',
         lastName: '',
@@ -425,7 +427,11 @@
         From: "opacity-100"
         To: "opacity-0"
     -->
-            <div class="fixed inset-0 transition-opacity" aria-hidden="true">
+            <div
+                class="fixed inset-0 transition-opacity"
+                aria-hidden="true"
+                in:fade={{ duration: 200 }}
+                out:fade={{ duration: 150 }}>
                 <div class="absolute inset-0 bg-gray-500 opacity-75" />
             </div>
 
@@ -447,7 +453,9 @@
                 class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-sm sm:w-full sm:p-6"
                 role="dialog"
                 aria-modal="true"
-                aria-labelledby="modal-headline">
+                aria-labelledby="modal-headline"
+                in:fade={{ duration: 200 }}
+                out:fade={{ duration: 150 }}>
                 <div>
                     <div
                         class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-light">

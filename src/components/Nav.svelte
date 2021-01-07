@@ -313,7 +313,9 @@
   -->
     {#if mobileMenu === true}
         <div
-            class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10">
+            class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
+            in:fade={{ duration: 200 }}
+            out:fade={{ duration: 150 }}>
             <div
                 class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
                 <div class="pt-5 pb-6 px-5">
