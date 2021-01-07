@@ -13,8 +13,8 @@
                 <a href="/" class="mr-2">
                     <span class="sr-only">Workflow</span>
                     <img
-                        class="h-8 w-auto sm:h-10"
-                        src="logo-192.png"
+                        class="h-6 w-10 sm:h-10"
+                        src="favicon.png"
                         alt="cumulus creative logo" />
                 </a>
                 <a
