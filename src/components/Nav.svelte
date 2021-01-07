@@ -9,25 +9,14 @@
 <div class="relative">
     <div class="max-w-screen-2xl mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-6 md:space-x-10">
-            <div class="flex justify-start lg:w-0 lg:flex-1">
-                <!-- <a href="#">
+            <div class="flex justify-start lg:w-0 lg:flex-1 items-center">
+                <a href="/" class="mr-2">
                     <span class="sr-only">Workflow</span>
                     <img
                         class="h-8 w-auto sm:h-10"
-                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-                        alt="" />
-                </a> -->
-                <svg
-                    class="w-6 h-6 mr-2 text-secondary"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"><path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                </svg>
+                        src="logo-192.png"
+                        alt="cumulus creative logo" />
+                </a>
                 <a
                     href="/"
                     name="home"
