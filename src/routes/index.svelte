@@ -109,7 +109,7 @@
     </div> -->
 
     <!-- websites -->
-    <div class="py-12">
+    <div class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center md:text-left">
                 <h2
@@ -223,7 +223,7 @@
 
                     <a href="websites">
                         <div
-                            class="flex bg-gray-100 rounded-lg hover:bg-gray-200 py-3 mt-8 md:mt-0">
+                            class="flex bg-gray-200 rounded-lg hover:bg-gray-300 py-3 mt-8 md:mt-0">
                             <div class="flex-shrink-0">
                                 <div
                                     class="flex items-center justify-center h-12 w-12 rounded-md">
@@ -411,7 +411,7 @@
     </div>
 
     <!-- mobile apps -->
-    <div class="py-12">
+    <div class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center md:text-left">
                 <h2
@@ -522,7 +522,7 @@
 
                     <a href="mobile-apps">
                         <div
-                            class="flex bg-gray-100 rounded-lg hover:bg-gray-200 py-3 mt-8 md:mt-0">
+                            class="flex bg-gray-200 rounded-lg hover:bg-gray-300 py-3 mt-8 md:mt-0">
                             <div class="flex-shrink-0">
                                 <div
                                     class="flex items-center justify-center h-12 w-12 rounded-md">
@@ -704,7 +704,7 @@
     </div>
 
     <!-- automation -->
-    <div class="py-12">
+    <div class="py-12 bg-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center md:text-left">
                 <h2
@@ -818,7 +818,7 @@
 
                     <a href="automation">
                         <div
-                            class="flex bg-gray-100 rounded-lg hover:bg-gray-200 py-3 mt-8 md:mt-0">
+                            class="flex bg-gray-200 rounded-lg hover:bg-gray-300 py-3 mt-8 md:mt-0">
                             <div class="flex-shrink-0">
                                 <div
                                     class="flex items-center justify-center h-12 w-12 rounded-md">

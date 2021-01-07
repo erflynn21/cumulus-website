@@ -3,8 +3,8 @@
 </svelte:head>
 
 <section name="hero">
-    <div class="relative bg-white overflow-hidden mb-10">
-        <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-24 sm:px-6 lg:mt-32">
+    <div class="relative bg-gray-50 overflow-hidden pb-12">
+        <main class="mt-16 mx-auto max-w-7xl px-4 sm:mt-20 sm:px-6 lg:mt-20">
             <div class="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div
                     class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
