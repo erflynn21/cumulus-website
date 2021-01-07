@@ -1,4 +1,7 @@
-<script>
+<script context="module">
+    export function preload({ params, query }) {
+        this.fetch('sitemap.xml');
+    }
 </script>
 
 <svelte:head>
