@@ -13,15 +13,17 @@
                 <a href="/" class="mr-2">
                     <span class="sr-only">Workflow</span>
                     <img
-                        class="h-6 w-10 sm:h-10"
+                        class="h-10"
                         src="favicon.png"
-                        alt="cumulus creative logo" />
+                        alt="cumulus creative logo"
+                    />
                 </a>
                 <a
                     href="/"
                     name="home"
                     class="text-lg font-semibold"
-                    on:click={() => (servicesOpen = false)}>Cumulus Creative</a>
+                    on:click={() => (servicesOpen = false)}>Cumulus Creative</a
+                >
             </div>
 
             <div class="-mr-2 -my-2 md:hidden">
@@ -36,11 +38,14 @@
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"><path
+                        xmlns="http://www.w3.org/2000/svg"
+                        ><path
                             stroke-linecap="round"
                             stroke-linejoin="round"
                             stroke-width="2"
-                            d="M4 6h16M4 12h16m-7 6h7" /></svg>
+                            d="M4 6h16M4 12h16m-7 6h7"
+                        /></svg
+                    >
                 </button>
             </div>
             <nav class="hidden md:flex space-x-10">
@@ -61,11 +66,13 @@
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"><path
+                                xmlns="http://www.w3.org/2000/svg"
+                                ><path
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M19 9l-7 7-7-7" />
+                                    d="M19 9l-7 7-7-7"
+                                />
                             </svg>
                         {:else}
                             <svg
@@ -78,7 +85,8 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M5 15l7-7 7 7" />
+                                    d="M5 15l7-7 7 7"
+                                />
                             </svg>
                         {/if}
                     </button>
@@ -98,15 +106,19 @@
                             out:fade={{ duration: 150 }}
                             class="absolute z-10 mt-3 transform px-2
                             w-screen max-w-md sm:px-0 -ml-0 -left-28
-                            -translate-x-1/2">
+                            -translate-x-1/2"
+                        >
                             <div
-                                class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+                                class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden"
+                            >
                                 <div
-                                    class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                                    class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8"
+                                >
                                     <a
                                         href="websites"
                                         name="websites"
-                                        class:bg-gray-100={segment === 'websites'}
+                                        class:bg-gray-100={segment ===
+                                            'websites'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                         <!-- Heroicon name: chart-bar -->
@@ -115,19 +127,21 @@
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg"><path
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            ><path
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"
-                                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                                d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                                            />
                                         </svg>
                                         <div class="ml-4">
                                             <p
-                                                class="text-base font-medium text-gray-900">
-                                                Websites
-                                            </p>
+                                                class="text-base font-medium text-gray-900"
+                                            >Websites</p>
                                             <p
-                                                class="mt-1 text-sm text-gray-500">
+                                                class="mt-1 text-sm text-gray-500"
+                                            >
                                                 Websites designed and built
                                                 around your business needs.
                                             </p>
@@ -137,7 +151,8 @@
                                     <a
                                         href="web-apps"
                                         name="web apps"
-                                        class:bg-gray-100={segment === 'web-apps'}
+                                        class:bg-gray-100={segment ===
+                                            'web-apps'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                         <svg
@@ -151,15 +166,16 @@
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"
-                                                d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                                d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                                            />
                                         </svg>
                                         <div class="ml-4">
                                             <p
-                                                class="text-base font-medium text-gray-900">
-                                                Web Apps
-                                            </p>
+                                                class="text-base font-medium text-gray-900"
+                                            >Web Apps</p>
                                             <p
-                                                class="mt-1 text-sm text-gray-500">
+                                                class="mt-1 text-sm text-gray-500"
+                                            >
                                                 Web applications for internal
                                                 tools or customer-facing SaaS
                                                 products.
@@ -170,7 +186,8 @@
                                     <a
                                         href="mobile-apps"
                                         name="mobile apps"
-                                        class:bg-gray-100={segment === 'mobile-apps'}
+                                        class:bg-gray-100={segment ===
+                                            'mobile-apps'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                         <svg
@@ -178,19 +195,21 @@
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg"><path
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            ><path
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"
-                                                d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                                d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                            />
                                         </svg>
                                         <div class="ml-4">
                                             <p
-                                                class="text-base font-medium text-gray-900">
-                                                Mobile Apps
-                                            </p>
+                                                class="text-base font-medium text-gray-900"
+                                            >Mobile Apps</p>
                                             <p
-                                                class="mt-1 text-sm text-gray-500">
+                                                class="mt-1 text-sm text-gray-500"
+                                            >
                                                 Apps designed to run on iOS and
                                                 Android mobile phones.
                                             </p>
@@ -200,7 +219,8 @@
                                     <a
                                         href="technology-consulting"
                                         name="technology consoluting apps"
-                                        class:bg-gray-100={segment === 'technology-consulting'}
+                                        class:bg-gray-100={segment ===
+                                            'technology-consulting'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                         <svg
@@ -208,19 +228,21 @@
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg"><path
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            ><path
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"
-                                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                            />
                                         </svg>
                                         <div class="ml-4">
                                             <p
-                                                class="text-base font-medium text-gray-900">
-                                                Technology Consolting
-                                            </p>
+                                                class="text-base font-medium text-gray-900"
+                                            >Technology Consolting</p>
                                             <p
-                                                class="mt-1 text-sm text-gray-500">
+                                                class="mt-1 text-sm text-gray-500"
+                                            >
                                                 Advising on the best technology
                                                 solutions for your business.
                                             </p>
@@ -230,7 +252,8 @@
                                     <a
                                         href="automation"
                                         name="automation"
-                                        class:bg-gray-100={segment === 'automation'}
+                                        class:bg-gray-100={segment ===
+                                            'automation'}
                                         on:click={() => (servicesOpen = false)}
                                         class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                                         <svg
@@ -238,19 +261,21 @@
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
-                                            xmlns="http://www.w3.org/2000/svg"><path
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            ><path
                                                 stroke-linecap="round"
                                                 stroke-linejoin="round"
                                                 stroke-width="2"
-                                                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                                                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                                            />
                                         </svg>
                                         <div class="ml-4">
                                             <p
-                                                class="text-base font-medium text-gray-900">
-                                                Automation
-                                            </p>
+                                                class="text-base font-medium text-gray-900"
+                                            >Automation</p>
                                             <p
-                                                class="mt-1 text-sm text-gray-500">
+                                                class="mt-1 text-sm text-gray-500"
+                                            >
                                                 Strategically automate tasks
                                                 across your business to save
                                                 time and money.
@@ -294,7 +319,8 @@
                             <path
                                 fill-rule="evenodd"
                                 d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
+                                clip-rule="evenodd"
+                            />
                         </svg>
                     </button>
                 </div>
@@ -315,9 +341,11 @@
         <div
             class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden z-10"
             in:fade={{ duration: 200 }}
-            out:fade={{ duration: 150 }}>
+            out:fade={{ duration: 150 }}
+        >
             <div
-                class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
+                class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50"
+            >
                 <div class="pt-5 pb-6 px-5">
                     <div class="flex items-center justify-between">
                         <div>
@@ -326,11 +354,13 @@
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"><path
+                                xmlns="http://www.w3.org/2000/svg"
+                                ><path
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                                    d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"
+                                />
                             </svg>
                         </div>
                         <div class="-mr-2">
@@ -350,7 +380,8 @@
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M6 18L18 6M6 6l12 12" />
+                                        d="M6 18L18 6M6 6l12 12"
+                                    />
                                 </svg>
                             </button>
                         </div>
@@ -367,11 +398,13 @@
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"><path
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    ><path
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+                                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                                    />
                                 </svg>
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
@@ -395,7 +428,8 @@
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                        d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"
+                                    />
                                 </svg>
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
@@ -413,11 +447,13 @@
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"><path
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    ><path
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                        d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
+                                    />
                                 </svg>
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
@@ -427,7 +463,8 @@
 
                             <a
                                 href="technology-consulting"
-                                class:bg-gray-100={segment === 'technology-consulting'}
+                                class:bg-gray-100={segment ===
+                                    'technology-consulting'}
                                 on:click={() => (mobileMenu = false)}
                                 class="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
                                 <svg
@@ -435,11 +472,13 @@
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"><path
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    ><path
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
                                 </svg>
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
@@ -457,11 +496,13 @@
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"><path
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    ><path
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                                        d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
+                                    />
                                 </svg>
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
@@ -485,11 +526,13 @@
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"><path
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    ><path
                                         stroke-linecap="round"
                                         stroke-linejoin="round"
                                         stroke-width="2"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                    />
                                 </svg>
                                 <span
                                     class="ml-3 text-base font-medium text-gray-900">
