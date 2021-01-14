@@ -11,9 +11,9 @@
         <div class="flex justify-between items-center py-6 md:space-x-10">
             <div class="flex justify-start lg:w-0 lg:flex-1 items-center">
                 <a href="/" class="mr-2">
-                    <span class="sr-only">Workflow</span>
+                    <span class="sr-only">Cumulus Creative</span>
                     <img
-                        class="h-10"
+                        class="h-8 w-auto"
                         src="favicon.png"
                         alt="cumulus creative logo"
                     />
