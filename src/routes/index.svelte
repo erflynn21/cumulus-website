@@ -990,7 +990,7 @@
                     height="75px"
                     width="150px"
                     class="h-12 w-auto object-contain opacity-50 transition duration-250 ease-in-out transform hover:scale-110 hover:opacity-100"
-                    src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126913/qk28pd2r8vn7ppf3hnsx_cowpvb.webp"
+                    src="https://res.cloudinary.com/cumulus-creative-services/image/upload/h_75/v1609126913/Cumulus%20Website/qk28pd2r8vn7ppf3hnsx_cowpvb.webp"
                     alt="Sapper"
                 />
                 <img
