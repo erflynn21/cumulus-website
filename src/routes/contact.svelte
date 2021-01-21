@@ -68,7 +68,8 @@
     <title>Contact - Cumulus Creative Services</title>
     <meta
         name="description"
-        content="Get in touch to request a quote for the services your business requires." />
+        content="Get in touch to request a quote for the services your business requires."
+    />
     <meta name="keywords" content="contact, request a quote" />
 </svelte:head>
 
@@ -78,12 +79,12 @@
     </div>
     <div class="relative max-w-screen-2xl mx-auto lg:grid lg:grid-cols-5">
         <div
-            class="bg-primary py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+            class="bg-primary py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12"
+        >
             <div class="max-w-lg mx-auto">
                 <h2
-                    class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
-                    Get in touch
-                </h2>
+                    class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl"
+                >Get in touch</h2>
                 <p class="mt-3 text-lg leading-6 text-white">
                     Let us know how we can build the web and cloud solutions to
                     solve your business needs.
@@ -104,7 +105,8 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                                />
                             </svg>
                             <span class="ml-3"> +1 (330) 227-8316 </span>
                         </dd>
@@ -124,7 +126,8 @@
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                />
                             </svg>
                             <span class="ml-3">
                                 evan@cumulus-creative.com
@@ -135,80 +138,99 @@
             </div>
         </div>
         <div
-            class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+            class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12"
+        >
             <div class="max-w-lg mx-auto lg:max-w-none">
                 <form
                     name="contact"
                     action="POST"
                     netlify
                     on:submit|preventDefault={handleSubmit}
-                    class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                    class="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
+                >
                     <div>
                         <label
                             for="firstName"
-                            class="block text-sm font-medium text-gray-700">First
-                            Name</label>
+                            class="block text-sm font-medium text-gray-700"
+                            >First Name</label
+                        >
                         <div class="mt-1">
                             <input
                                 type="text"
                                 name="firstName"
                                 id="firstName"
                                 autocomplete="given-name"
+                                required
                                 bind:value={formData.firstName}
-                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
+                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <div>
                         <label
                             for="lastName"
-                            class="block text-sm font-medium text-gray-700">Last
-                            Name</label>
+                            class="block text-sm font-medium text-gray-700"
+                            >Last Name</label
+                        >
                         <div class="mt-1">
                             <input
                                 type="text"
                                 name="lastName"
                                 id="lastName"
                                 autocomplete="family-name"
+                                required
                                 bind:value={formData.lastName}
-                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
+                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label
                             for="email"
-                            class="block text-sm font-medium text-gray-700">Email</label>
+                            class="block text-sm font-medium text-gray-700"
+                            >Email</label
+                        >
                         <div class="mt-1">
                             <input
                                 id="email"
                                 name="email"
                                 type="email"
                                 autocomplete="email"
+                                required
                                 bind:value={formData.email}
-                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
+                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label
                             for="company"
-                            class="block text-sm font-medium text-gray-700">Company</label>
+                            class="block text-sm font-medium text-gray-700"
+                            >Company</label
+                        >
                         <div class="mt-1">
                             <input
                                 type="text"
                                 name="company"
                                 id="company"
                                 autocomplete="organization"
+                                required
                                 bind:value={formData.company}
-                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
+                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <div class="flex justify-between">
                             <label
                                 for="phone"
-                                class="block text-sm font-medium text-gray-700">Phone</label>
+                                class="block text-sm font-medium text-gray-700"
+                                >Phone</label
+                            >
                             <span
                                 id="phone_description"
-                                class="text-sm text-gray-500">Optional</span>
+                                class="text-sm text-gray-500">Optional</span
+                            >
                         </div>
                         <div class="mt-1">
                             <input
@@ -218,7 +240,8 @@
                                 autocomplete="tel"
                                 aria-describedby="phone_description"
                                 bind:value={formData.phone}
-                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
+                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <fieldset class="col-span-1">
@@ -233,11 +256,15 @@
                                         name="servicesRequired"
                                         value="website_dev"
                                         type="checkbox"
-                                        on:click={() => handleServices('Website Development')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Website
-                                        Development</span>
+                                        on:click={() =>
+                                            handleServices(
+                                                'Website Development'
+                                            )}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >Website Development</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -247,10 +274,15 @@
                                         name="servicesRequired"
                                         value="web_app_dev"
                                         type="checkbox"
-                                        on:click={() => handleServices('Web App Development')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span class="ml-2 text-sm text-gray-700">Web
-                                        App Development</span>
+                                        on:click={() =>
+                                            handleServices(
+                                                'Web App Development'
+                                            )}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >Web App Development</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -260,11 +292,15 @@
                                         name="servicesRequired"
                                         value="mobile_app_dev"
                                         type="checkbox"
-                                        on:click={() => handleServices('Mobile App Development')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Mobile
-                                        App Development</span>
+                                        on:click={() =>
+                                            handleServices(
+                                                'Mobile App Development'
+                                            )}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >Mobile App Development</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -274,11 +310,15 @@
                                         name="servicesRequired"
                                         value="technology_consulting"
                                         type="checkbox"
-                                        on:click={() => handleServices('Technology Consulting')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Technology
-                                        Consulting</span>
+                                        on:click={() =>
+                                            handleServices(
+                                                'Technology Consulting'
+                                            )}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >Technology Consulting</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -288,10 +328,13 @@
                                         name="servicesRequired"
                                         value="automation"
                                         type="checkbox"
-                                        on:click={() => handleServices('Automation')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Automation</span>
+                                        on:click={() =>
+                                            handleServices('Automation')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >Automation</span
+                                    >
                                 </label>
                             </div>
                         </div>
@@ -309,11 +352,13 @@
                                         name="budget"
                                         value="under 5k"
                                         type="radio"
-                                        on:click={() => (formData.budget = 'under 5k')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">Less
-                                        than $5K</span>
+                                        on:click={() =>
+                                            (formData.budget = 'under 5k')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >Less than $5K</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -323,10 +368,13 @@
                                         name="budget"
                                         value="5k-15k"
                                         type="radio"
-                                        on:click={() => (formData.budget = '5k-15k')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span class="ml-2 text-sm text-gray-700">$5K
-                                        – $15K</span>
+                                        on:click={() =>
+                                            (formData.budget = '5k-15k')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >$5K – $15K</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -336,11 +384,13 @@
                                         name="budget"
                                         value="15k-30k"
                                         type="radio"
-                                        on:click={() => (formData.budget = '15k-30k')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">$15K
-                                        – $30K</span>
+                                        on:click={() =>
+                                            (formData.budget = '15k-30k')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >$15K – $30K</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -350,11 +400,13 @@
                                         name="budget"
                                         value="30k-50k"
                                         type="radio"
-                                        on:click={() => (formData.budget = '30k-50k')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">$30K
-                                        - $50k</span>
+                                        on:click={() =>
+                                            (formData.budget = '30k-50k')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >$30K - $50k</span
+                                    >
                                 </label>
                             </div>
                             <div class="flex items-center">
@@ -364,10 +416,13 @@
                                         name="budget"
                                         value="over_50k"
                                         type="radio"
-                                        on:click={() => (formData.budget = 'over_50k')}
-                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300" />
-                                    <span
-                                        class="ml-2 text-sm text-gray-700">$50K+</span>
+                                        on:click={() =>
+                                            (formData.budget = 'over_50k')}
+                                        class="focus:ring-primary h-4 w-4 text-primary border-gray-300"
+                                    />
+                                    <span class="ml-2 text-sm text-gray-700"
+                                        >$50K+</span
+                                    >
                                 </label>
                             </div>
                         </div>
@@ -376,32 +431,38 @@
                         <div class="flex justify-between">
                             <label
                                 for="project"
-                                class="block text-sm font-medium text-gray-700">Tell
-                                us a bit about your project, requirements, and
-                                anything else that might be helpful.</label>
+                                class="block text-sm font-medium text-gray-700"
+                                >Tell us a bit about your project, requirements,
+                                and anything else that might be helpful.</label
+                            >
                         </div>
                         <div class="mt-1">
                             <textarea
                                 id="project"
                                 name="project"
                                 aria-describedby="project_description"
+                                required
                                 rows="4"
                                 bind:value={formData.project}
-                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md" />
+                                class="block w-full shadow-sm sm:text-sm focus:ring-primary focus:border-primary border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <div class="sm:col-span-2">
                         <label
                             for="hearAbout"
-                            class="block text-sm font-medium text-gray-700">How
-                            did you hear about us?</label>
+                            class="block text-sm font-medium text-gray-700"
+                            >How did you hear about us?</label
+                        >
                         <div class="mt-1">
                             <input
                                 type="text"
                                 name="hearAbout"
                                 id="hearAbout"
+                                required
                                 bind:value={formData.hearAbout}
-                                class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md" />
+                                class="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
+                            />
                         </div>
                     </div>
                     <div class="text-right sm:col-span-2">
@@ -420,7 +481,8 @@
 {#if successMessage === true}
     <div class="fixed z-10 inset-0 overflow-y-auto">
         <div
-            class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+            class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0"
+        >
             <!--
       Background overlay, show/hide based on modal state.
 
@@ -435,14 +497,16 @@
                 class="fixed inset-0 transition-opacity"
                 aria-hidden="true"
                 in:fade={{ duration: 200 }}
-                out:fade={{ duration: 150 }}>
+                out:fade={{ duration: 150 }}
+            >
                 <div class="absolute inset-0 bg-gray-500 opacity-75" />
             </div>
 
             <!-- This element is to trick the browser into centering the modal contents. -->
             <span
                 class="hidden sm:inline-block sm:align-middle sm:h-screen"
-                aria-hidden="true">&#8203;</span>
+                aria-hidden="true">&#8203;</span
+            >
             <!--
       Modal panel, show/hide based on modal state.
 
@@ -459,10 +523,12 @@
                 aria-modal="true"
                 aria-labelledby="modal-headline"
                 in:fade={{ duration: 200 }}
-                out:fade={{ duration: 150 }}>
+                out:fade={{ duration: 150 }}
+            >
                 <div>
                     <div
-                        class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-light">
+                        class="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-light"
+                    >
                         <!-- Heroicon name: check -->
                         <svg
                             class="h-6 w-6 text-primary"
@@ -475,15 +541,15 @@
                                 stroke-linecap="round"
                                 stroke-linejoin="round"
                                 stroke-width="2"
-                                d="M5 13l4 4L19 7" />
+                                d="M5 13l4 4L19 7"
+                            />
                         </svg>
                     </div>
                     <div class="mt-3 text-center sm:mt-5">
                         <h3
                             class="text-lg leading-6 font-medium text-gray-900"
-                            id="modal-headline">
-                            Success!
-                        </h3>
+                            id="modal-headline"
+                        >Success!</h3>
                         <div class="mt-2">
                             <p class="text-sm text-gray-500">
                                 We've got your information and will respond to
